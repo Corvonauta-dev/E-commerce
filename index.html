@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <div class="logo">
+                <img src="src/img/Logo.jpg" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+            </ul>
+            <div>
+                <a class="btn" href="./cadastro.html">Iniciar Sessão</a>
+
+                <a class="cart-button" href="./carrinho.html"><i class="fas fa-shopping-cart"></i></a>
+
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="carousel">
+            <div class="slide active">
+                <img src="src/img/img1.jpg" alt="Imagem 1">
+            </div>
+            <div class="slide">
+                <img src="src/img/img2.jpg" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img src="src/img/img3.jpg" alt="Imagem 3">
+            </div>
+            <div class="slide">
+                <img src="src/img/img4.jpg" alt="Imagem 4">
+            </div>
+            <div class="slide">
+                <img src="src/img/img5.jpg" alt="Imagem 5">
+            </div>
+        </div>
+
+        <div class="carousel-controls">
+            <button class="botao selected" onclick="changeSlide(0)"></button>
+            <button class="botao" onclick="changeSlide(1)"></button>
+            <button class="botao" onclick="changeSlide(2)"></button>
+            <button class="botao" onclick="changeSlide(3)"></button>
+            <button class="botao" onclick="changeSlide(4)"></button>
+        </div>
+        <h1 class="destaque">Produtos em Destaque</h1>
+
+        <div class="product-container">
+            <div class="product">
+                <img src="src/img/img1.jpg" alt="Produto 1">
+                <div class="product-name">Adesivo Trevo de 4 Folhas</div>
+                <div class="product-price">R$ 5,00</div>
+            </div>
+
+            <div class="product">
+                <img src="src/img/img2.jpg" alt="Produto 2">
+                <div class="product-name">Adesivo Beija-flor</div>
+                <div class="product-price">R$ 5,00</div>
+            </div>
+
+            <div class="product">
+                <img src="src/img/img3.jpg" alt="Produto 3">
+                <div class="product-name">Adesivo Aquaplant</div>
+                <div class="product-price">R$ 5,00</div>
+            </div>
+
+            <div class="product">
+                <img src="src/img/img4.jpg" alt="Produto 4">
+                <div class="product-name">Adesivo Mariposa</div>
+                <div class="product-price">R$ 5,00</div>
+            </div>
+
+            <div class="product">
+                <img src="src/img/img5.jpg" alt="Produto 5">
+                <div class="product-name">Adesivo Libelula</div>
+                <div class="product-price">R$ 5,00</div>
+            </div>
+
+            <div class="product">
+                <img src="src/img/img6.jpg" alt="Produto 6">
+                <div class="product-name">Adesivo Araucária</div>
+                <div class="product-price">R$ 5,00</div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Entre em contato conosco:</p>
+        <p>Email: contato@example.com</p>
+        <p>Telefone: (00) 1234-5678</p>
+
+        <div class="social-media">
+            <a href="https://www.instagram.com/lmicaloski/" target="_blank">Siga-nos no Instagram</a>
+        </div>
+    </footer>
+
+
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

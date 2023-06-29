@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/produtos.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="menu">
+            <div class="logo">
+                <img src="src/img/Logo.jpg" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+            </ul>
+            <div>
+                <a class="btn" href="./cadastro.html">Iniciar Sessão</a>
+                <a class="cart-button" href="./carrinho.html" onclick="storageCarrinho()">
+                    <i class="fas fa-shopping-cart"></i>
+                    <div id="cart-item-count"></div>
+                </a>
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+        <div class="sort-options">
+            <label for="sort-select">Ordenar</label>
+            <select id="sort-select">
+                <option value="name">Nome</option>
+                <option value="price">Preço</option>
+            </select>
+        </div>
+
+        <div class="product-list">
+
+        </div>
+
+        <div class="dialog-overlay">
+            <div class="dialog-content">
+                <span class="dialog-close">&times;</span>
+                <h2 class="dialog-product-name"></h2>
+                <div class="dialog-product-price"></div>
+                <div class="dialog-product-description"></div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <p>Entre em contato conosco:</p>
+        <p>Email: contato@example.com</p>
+        <p>Telefone: (00) 1234-5678</p>
+
+        <div class="social-media">
+            <a href="https://www.instagram.com/lmicaloski/" target="_blank">Siga-nos no Instagram</a>
+        </div>
+    </footer>
+
+
+    <script src="./src/js/produtos.js"></script>
+
+
+</html>
