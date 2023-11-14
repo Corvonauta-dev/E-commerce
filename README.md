@@ -4,7 +4,7 @@
 Bem-vindo(a) ao repositório do projeto "E-commerce"!
 </h1>
 
-<a href="https://corvonauta-dev.github.io/E-commerce/produtos.html">Veja o Resultado</a>
+<a href="https://corvonauta-dev.github.io/E-commerce/index.html">Veja o Resultado</a>
 
 
 <p>
