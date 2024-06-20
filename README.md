@@ -8,7 +8,7 @@ Bem-vindo(a) ao repositório do projeto "E-commerce"!
 
 
 <p>
-  Este é um modelo de site desenvolvido em <strong>HTML, CSS e JavaScript</strong>, de um E-commerce de um comercio local da <a href="https://www.instagram.com/lmicaloski/">Amorepoelho</a>.
+  Este é um modelo de site desenvolvido em <strong>HTML, CSS e JavaScript</strong>, de um E-commerce de um comercio local da <a href="https://www.instagram.com/laimicaloski/">Amorepoelho</a>.
 
 </p>
 
